@@ -12,7 +12,7 @@ Remark: These formulas can also be found in Theorem 2 of
 [1] Kimball Martin
     Refined dimensions of cusp forms, and equidistribution and bias of signs
     Journal of Number Theory
-    188 (2018) 1–17
+    188 (2018) pp. 1–17
 
 Warning: In Theorem 2 of [1] the plus/minus signs correspond to 
          w_f which is the sign in the functional equation of L(f,s)
