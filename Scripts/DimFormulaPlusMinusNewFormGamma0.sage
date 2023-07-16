@@ -67,7 +67,7 @@ def dimension_new_cusp_forms_minus_level_2(k):
 def CheckDim(k):
     """
     Check that 
-    dim S^{+}_k(Gamma_0(2))^{new}+dim S^{-}_k(Gamma_0(2))^{new}=dim S_k(Gamma_0(2))
+    dim S^{+}_k(Gamma_0(2))^{new}+dim S^{-}_k(Gamma_0(2))^{new}=dim S_k(Gamma_0(2))^{new}
     """
     d = Gamma0(2).dimension_new_cusp_forms(k)
     dp = dimension_new_cusp_forms_plus_level_2(k)
