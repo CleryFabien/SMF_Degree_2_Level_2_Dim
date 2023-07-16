@@ -19,15 +19,15 @@ sage: Mult_Irrep_Gamma_2_SV(k)
 
 [[i.d. of E_k(Gamma[2])], dim E_k(Gamma[2])],
 
-[[i.d. of E^{(F)}_k(Gamma[2])], dim E^{\textbf{(F)}}_k(Gamma[2])],
+[[i.d. of E^{(F)}_k(Gamma[2])], dim E^{(F)}_k(Gamma[2])],
 
-[[i.d. of E^{\textbf{(Q)}}_k(Gamma[2])], dim E^{\textbf{(Q)}}_k(Gamma[2])],
+[[i.d. of E^{(Q)}_k(Gamma[2])], dim E^{(Q)}_k(Gamma[2])],
 
-[[i.d. of S^{\textbf{(P)}}_k(Gamma[2])], dim S^{\textbf{(P)}}_k(Gamma[2])],
+[[i.d. of S^{(P)}_k(Gamma[2])], dim S^{(P)}_k(Gamma[2])],
 
-[[i.d. of  S^{\textbf{(Y)}}_k(Gamma[2])], dim S^{\textbf{(Y)}}_k(Gamma[2])],
+[[i.d. of  S^{(Y)}_k(Gamma[2])], dim S^{(Y)}_k(Gamma[2])],
 
-[[i.d. of  S^{\textbf{(G)}}_k(Gamma[2])], dim S^{\textbf{(G)}}_k(Gamma[2])]
+[[i.d. of  S^{(G)}_k(Gamma[2])], dim S^{(G)}_k(Gamma[2])]
 ]
 
 
@@ -58,11 +58,11 @@ sage: Mult_Irrep_Gamma_1_2_SV(k)
 [[i.d. of M_k(Gamma_1[2])], dim M_k(Gamma_1[2])], 
 [[i.d. of S_k(Gamma_1[2])], S_k(Gamma_1[2])],
 [[i.d. of E_k(Gamma_1[2])], dim E_k(Gamma_1[2])],
-[[i.d. of E^{\textbf{(F)}}_k(Gamma_1[2])], dim E^{\textbf{(F)}}_k(Gamma_1[2])],
-[[i.d. of E^{\textbf{(Q)}}_k(Gamma_1[2])], dim E^{\textbf{(Q)}}_k(Gamma_1[2])],
-[[i.d. of S^{\textbf{(P)}}_k(Gamma_1[2])], dim S^{\textbf{(P)}}_k(Gamma_1[2])],
-[[i.d. of  S^{\textbf{(Y)}}_k(Gamma_1[2])], dim S^{\textbf{(Y)}}_k(Gamma_1[2])],
-[[i.d. of  S^{\textbf{(G)}}_k(Gamma_1[2])], dim S^{\textbf{(G)}}_k(Gamma_1[2])]
+[[i.d. of E^{(F)}_k(Gamma_1[2])], dim E^{(F)}_k(Gamma_1[2])],
+[[i.d. of E^{(Q)}_k(Gamma_1[2])], dim E^{(Q)}_k(Gamma_1[2])],
+[[i.d. of S^{(P)}_k(Gamma_1[2])], dim S^{(P)}_k(Gamma_1[2])],
+[[i.d. of  S^{(Y)}_k(Gamma_1[2])], dim S^{(Y)}_k(Gamma_1[2])],
+[[i.d. of  S^{(G)}_k(Gamma_1[2])], dim S^{(G)}_k(Gamma_1[2])]
 ]
 
 
@@ -92,8 +92,8 @@ of \textit{loc. cit.}.
 where k stands for the weight, k\geqslant 0. It returns
 
 sage: dim_Gamma_0_2_SV(k)
-[dim M_k(Gamma_0[2]), dim S_k(Gamma_0[2]), dim E_k(Gamma_0[2]),dim E^{\textbf{(F)}}_k(Gamma_0[2]),dim E^{\textbf{(Q)}}_k(Gamma_0[2]),
-dim S^{\textbf{(P)}}_k(Gamma_0[2]), dim S^{\textbf{(Y)}}_k(Gamma_0[2]), dim S^{\textbf{(G)}}_k(Gamma_0[2])]
+[dim M_k(Gamma_0[2]), dim S_k(Gamma_0[2]), dim E_k(Gamma_0[2]),dim E^{(F)}_k(Gamma_0[2]),dim E^{(Q)}_k(Gamma_0[2]),
+dim S^{(P)}_k(Gamma_0[2]), dim S^{(Y)}_k(Gamma_0[2]), dim S^{(G)}_k(Gamma_0[2])]
 
 Here is one example:
 
@@ -112,8 +112,8 @@ of \textit{loc. cit.}.
 where k stands for the weight, k\geqslant 0. It returns
 
 sage: dim_Sp4Z_With_Character_SV(k)
-[dim M_k(Gamma,\varepsilon), dim S_k(Gamma,\varepsilon), dim E_k(Gamma,\varepsilon),dim E^{\textbf{(F)}}_k(Gamma,\varepsilon),dim E^{\textbf{(Q)}}_k(Gamma,\varepsilon), dim S^{\textbf{(P)}}_k(Gamma,\varepsilon), 
-dim S^{\textbf{(Y)}}_k(Gamma,\varepsilon), dim S^{\textbf{(G)}}_k(Gamma,\varepsilon)]
+[dim M_k(Gamma,\varepsilon), dim S_k(Gamma,\varepsilon), dim E_k(Gamma,\varepsilon),dim E^{(F)}_k(Gamma,\varepsilon),dim E^{(Q)}_k(Gamma,\varepsilon), dim S^{(P)}_k(Gamma,\varepsilon), 
+dim S^{(Y)}_k(Gamma,\varepsilon), dim S^{(G)}_k(Gamma,\varepsilon)]
 
 Here is one example:
 
@@ -128,8 +128,8 @@ sage: dim_Sp4Z_With_Character_SV(24)
 where k stands for the weight, k\geqslant 0. It returns
 
 sage: dim_Sp4Z_SV(k)
-[dim M_k(Gamma), dim S_k(Gamma), dim E_k(Gamma),dim E^{\textbf{(F)}}_k(Gamma),dim E^{\textbf{(Q)}}_k(Gamma),dim S^{\textbf{(P)}}_k(Gamma), 
-dim S^{\textbf{(Y)}}_k(Gamma), dim S^{\textbf{(G)}}_k(Gamma)]
+[dim M_k(Gamma), dim S_k(Gamma), dim E_k(Gamma),dim E^{(F)}_k(Gamma),dim E^{(Q)}_k(Gamma),dim S^{(P)}_k(Gamma), 
+dim S^{(Y)}_k(Gamma), dim S^{(G)}_k(Gamma)]
 
 Here is one example:
 
@@ -154,11 +154,11 @@ sage: Mult_Irrep_Gamma_2_VV(k,j)
 [[i.d. of M_{k,j}(Gamma[2])], dim M_{k,j}(Gamma[2])], 
 [[i.d. of S_{k,j}(Gamma[2])], S_{k,j}(Gamma[2])],
 [[i.d. of E_{k,j}(Gamma[2])], dim E_{k,j}(Gamma[2])],
-[[i.d. of E^{\textbf{(F)}}_{k,j}(Gamma[2])], dim E^{\textbf{(F)}}_{k,j}(Gamma[2])],
-[[i.d. of E^{\textbf{(Q)}}_{k,j}(Gamma[2])], dim E^{\textbf{(Q)}}_{k,j}(Gamma[2])],
-[[i.d. of S^{\textbf{(P)}}_{k,j}(Gamma[2])], dim S^{\textbf{(P)}}_{k,j}(Gamma[2])],
-[[i.d. of  S^{\textbf{(Y)}}_{k,j}(Gamma[2])], dim S^{\textbf{(Y)}}_{k,j}(Gamma[2])],
-[[i.d. of  S^{\textbf{(G)}}_{k,j}(Gamma[2])], dim S^{\textbf{(G)}}_{k,j}(Gamma[2])]
+[[i.d. of E^{(F)}_{k,j}(Gamma[2])], dim E^{(F)}_{k,j}(Gamma[2])],
+[[i.d. of E^{(Q)}_{k,j}(Gamma[2])], dim E^{(Q)}_{k,j}(Gamma[2])],
+[[i.d. of S^{(P)}_{k,j}(Gamma[2])], dim S^{(P)}_{k,j}(Gamma[2])],
+[[i.d. of  S^{(Y)}_{k,j}(Gamma[2])], dim S^{(Y)}_{k,j}(Gamma[2])],
+[[i.d. of  S^{(G)}_{k,j}(Gamma[2])], dim S^{(G)}_{k,j}(Gamma[2])]
 ]
 
 
