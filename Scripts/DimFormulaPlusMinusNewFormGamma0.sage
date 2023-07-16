@@ -28,14 +28,15 @@ def dimension_new_cusp_forms_plus_level_2(k):
     new cusp forms on Gamma_0(2)
     """
     k = ZZ(k)
+    d = Gamma0(2).dimension_new_cusp_forms(k)
     if k==0 or k==2:
         return 0 
     if (k % 8) == 0:
-        return (1/2)*dimension_new_cusp_forms(Gamma0(2),k)+1/2 
+        return (d/2)+1/2 
     if (k % 8) == 2:
-        return (1/2)*dimension_new_cusp_forms(Gamma0(2),k)-1/2 
+        return (d/2)-1/2 
     elif (k % 8) == 4 or (k % 8)== 6:
-        return (1/2)*dimension_new_cusp_forms(Gamma0(2),k)
+        return (d/2)
 """
    Example:
    sage: print([[k,dimension_new_cusp_forms_plus_level_2(k)] for k in range(20) if k % 2 == 0])
@@ -48,17 +49,28 @@ def dimension_new_cusp_forms_minus_level_2(k):
     new cusp forms on Gamma_0(2)
     """
     k = ZZ(k)
+    d = Gamma0(2).dimension_new_cusp_forms(k)
     if k==0 or k==2:
         return 0
     if (k % 8) == 0:
-        return (1/2)*dimension_new_cusp_forms(Gamma0(2),k)-1/2 
+        return (d/2)-1/2 
     if (k % 8) == 2:
-        return (1/2)*dimension_new_cusp_forms(Gamma0(2),k)+1/2 
+        return (d/2)+1/2 
     elif (k % 8) == 4 or (k % 8)== 6:
-        return (1/2)*dimension_new_cusp_forms(Gamma0(2),k)
+        return (d/2)
 """
    Example:
    sage: print([[k,dimension_new_cusp_forms_minus_level_2(k)] for k in range(20) if k % 2 == 0])
          [[0, 0], [2, 0], [4, 0], [6, 0], [8, 0], [10, 1], [12, 0], [14, 1], [16, 0], [18, 1]]
 """
+
+def CheckDim(k):
+    """
+    Check that 
+    dim S^{+}_k(Gamma_0(2))^{new}+dim S^{-}_k(Gamma_0(2))^{new}=dim S_k(Gamma_0(2))
+    """
+    d = Gamma0(2).dimension_new_cusp_forms(k)
+    dp = dimension_new_cusp_forms_plus_level_2(k)
+    dm = dimension_new_cusp_forms_minus_level_2(k)
+    return d-dp-dm
 
