@@ -14,12 +14,19 @@ and their dimension:
 sage: Mult_Irrep_Gamma_2_SV(k)
 [
 [[i.d. of M_k(Gamma[2])], dim M_k(Gamma[2])], 
+
 [[i.d. of S_k(Gamma[2])], S_k(Gamma[2])],
+
 [[i.d. of E_k(Gamma[2])], dim E_k(Gamma[2])],
+
 [[i.d. of E^{(F)}_k(Gamma[2])], dim E^{\textbf{(F)}}_k(Gamma[2])],
+
 [[i.d. of E^{\textbf{(Q)}}_k(Gamma[2])], dim E^{\textbf{(Q)}}_k(Gamma[2])],
+
 [[i.d. of S^{\textbf{(P)}}_k(Gamma[2])], dim S^{\textbf{(P)}}_k(Gamma[2])],
+
 [[i.d. of  S^{\textbf{(Y)}}_k(Gamma[2])], dim S^{\textbf{(Y)}}_k(Gamma[2])],
+
 [[i.d. of  S^{\textbf{(G)}}_k(Gamma[2])], dim S^{\textbf{(G)}}_k(Gamma[2])]
 ]
 
@@ -27,7 +34,7 @@ sage: Mult_Irrep_Gamma_2_SV(k)
 Here is one example:
 sage: Mult_Irrep_Gamma_2_SV(24)
 [
-[[8, 7, 28, 12, 2, 27, 24, 21, 7, 12, 0], 1325],
+[[8, 7, 28, 12, 2, 27, 24, 21, 7, 12,0], 1325],
 [[5, 5, 22, 12, 2, 24, 22, 17, 7, 10, 0], 1160],
 [[3, 2, 6, 0, 0, 3, 2, 4, 0, 2, 0], 165],
 [[1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 15],
@@ -180,8 +187,12 @@ The procedures
 
 return as their analogues in the scalar-valued case. 
 Examples:
+
 sage: dim_Sp4Z_With_Character_VV(3,6)
+
 [1, 1, 0, 0, 0, 0, 1, 0]
+
 sage: dim_Gamma_0_2_VV(11,6)
+
 [15, 15, 0, 0, 0, 0, 1, 14]
 
