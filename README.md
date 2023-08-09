@@ -4,6 +4,22 @@ Siegel Modular Forms of degree 2  and Level 2 - Dimensions
 Description
 --
 
+SageMath installation
+--
+
+To install the package in SageMath, first clone the repository via
+```
+git clone https://github.com/CleryFabien/SMF_Degree_2_Level_2_Dim.git
+```
+then go to the newly created directory and type
+```
+sage -pip install --user --upgrade .
+```
+After that, a new package called `SMF_Degree_2_Level_2_Dim` will be available for import in SageMath. 
+Once the package is updated on GitHub, pulling the new changes and running the same command will update your installation.
+
+
+
 ```
 sage 
 ```
