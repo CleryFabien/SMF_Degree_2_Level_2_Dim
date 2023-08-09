@@ -1,6 +1,6 @@
-# SMF_Degree_2_Level_2_Dim
+# @@ -3,26 +3,35 @@  Siegel Modular Forms of degree 2  and Level 2 - Dimensions
  
-# Description
+# @@ -3,26 +3,35 @@ Description
 
 ```
 sage 
