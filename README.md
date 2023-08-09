@@ -8,11 +8,12 @@ of the spaces of Siegel modular forms of degree 2 and level 2. These codes rely 
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 by Jonas Bergström, Fabien Cléry.
 
-SageMath installation
+Installation (SageMath)
 --
-To use you will need to have
+To use the codes you will need to have
 [SageMath](https://www.sagemath.org) installed.
-To install the package in SageMath, first clone the repository via
+
+First clone the repository via
 ```
 git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
 ```
@@ -23,8 +24,10 @@ sage -pip install --user --upgrade .
 After that, a new package called `SMF_Degree_2_Level_2_Dim` will be available for import in SageMath. 
 Once the package is updated on GitHub, pulling the new changes and running the same command will update your installation.
 
-
-
+Authors
+--
+* **[Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) **
+* **[Fabien Cléry](https://vivo.brown.edu/display/fclery) **
 ```
 sage 
 ```
