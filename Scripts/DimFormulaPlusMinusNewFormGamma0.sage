@@ -5,7 +5,9 @@ forms on Gamma_0(2). Here the plus and minus signs
 correspond to the sign of the eigenvalues of the 
 Fricke involution acting on the space of new 
 forms on Gamma_0(2). These dimensions are computed as 
-explained in the paper.
+explained in Bergström-Cléry, ``Dimension formulas for 
+spaces of vector-valued Siegel modular forms of degree two and level two''
+Section 3.1.
 
 Remark: These formulas can also be found in Theorem 2 of 
 
@@ -14,7 +16,7 @@ Remark: These formulas can also be found in Theorem 2 of
     Journal of Number Theory
     188 (2018) pp. 1–17
 
-Warning: In Theorem 2 of [1] the plus/minus signs correspond to 
+Remark: In Theorem 2 of [1] the plus/minus signs correspond to 
          w_f which is the sign in the functional equation of L(f,s)
          for f a weight k new form on Gamma_0(2) so 
          w_f=(-1)^{k/2} \lambda_{W_2} for f \in S_{k}(Gamma_0(2))^{new}
