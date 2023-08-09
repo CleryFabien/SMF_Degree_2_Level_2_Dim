@@ -224,9 +224,10 @@ Citing this code
 Please cite the following preprint if this code has been helpful in your research.
 
 Jonas Bergström, Fabien Cléry
+
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 
 
 DOI: 
 
-Preprint available at [arXiv:1705.09248](https://arxiv.org)
+Preprint available at [arXiv:](https://arxiv.org)
