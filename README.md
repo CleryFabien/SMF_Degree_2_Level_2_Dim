@@ -218,6 +218,15 @@ sage: dim_Gamma_0_2_VV(11,6)
 
 [15, 15, 0, 0, 0, 0, 1, 14]
 
-# Citing this code
+Citing this code
+--
 
-Please cite the following
+Please cite the following preprint if this code has been helpful in your research.
+
+Jonas Bergström, Fabien Cléry, 
+*Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
+
+
+DOI: 
+
+Preprint available at [arXiv:1705.09248](https://arxiv.org)
