@@ -4,7 +4,7 @@ Siegel Modular Forms of degree 2  and Level 2 - Dimensions
 Description
 --
 This repository contains SageMath codes for computing the isotypical decompositions
-of the spaces of Siegel modular forms of degree 2 and Level 2. These codes rely on the article 
+of the spaces of Siegel modular forms of degree 2 and level 2. These codes rely on the article 
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 by Jonas Bergström, Fabien Cléry.
 
@@ -13,7 +13,7 @@ SageMath installation
 
 To install the package in SageMath, first clone the repository via
 ```
-git clone https://github.com/CleryFabien/SMF_Degree_2_Level_2_Dim.git
+git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
 ```
 then go to the newly created directory and type
 ```
