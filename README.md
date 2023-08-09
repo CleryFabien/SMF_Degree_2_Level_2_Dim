@@ -4,8 +4,7 @@ Siegel Modular Forms of degree 2  and Level 2 - Dimensions
 Description
 --
 This repository contains SageMath codes for computing the isotypical decompositions
-of the spaces of Siegel modular forms of degree 2 and Level 2. The mathematical data 
-is provided in the article 
+of the spaces of Siegel modular forms of degree 2 and Level 2. These codes rely on the article 
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 by Jonas Bergström, Fabien Cléry.
 
