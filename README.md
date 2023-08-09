@@ -1,6 +1,8 @@
-# @@ -3,26 +3,35 @@  Siegel Modular Forms of degree 2  and Level 2 - Dimensions
+Siegel Modular Forms of degree 2  and Level 2 - Dimensions
+--
  
-# @@ -3,26 +3,35 @@ Description
+Description
+--
 
 ```
 sage 
