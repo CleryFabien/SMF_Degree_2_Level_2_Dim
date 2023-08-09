@@ -26,8 +26,8 @@ Once the package is updated on GitHub, pulling the new changes and running the s
 
 Authors
 --
-* **[Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) **
-* **[Fabien Cléry](https://vivo.brown.edu/display/fclery) **
+* [Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) 
+* [Fabien Cléry](https://vivo.brown.edu/display/fclery) 
 ```
 sage 
 ```
