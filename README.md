@@ -10,7 +10,8 @@ by Jonas Bergström, Fabien Cléry.
 
 SageMath installation
 --
-
+To use you will need to have
+[SageMath](https://www.sagemath.org) installed.
 To install the package in SageMath, first clone the repository via
 ```
 git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
