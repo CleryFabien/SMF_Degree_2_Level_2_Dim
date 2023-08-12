@@ -60,6 +60,20 @@ sage: Mult_Irrep_Gamma_2_SV(k)
 ]
 
 
+ def trivial_representation(isometry):
+         return 1
+
+    import numpy as np
+    g = BirchGenus(11)
+    dim = g.dimensions()[1]
+    mat = np.zeros((dim, dim), dtype=np.int32)
+    for entry in g.isometry_sequence(31):
+        row = entry['src']
+        col = entry['dst']
+        mat[row][col] += trivial_representation(entry)
+
+
+
 Here is one example:
 sage: Mult_Irrep_Gamma_2_SV(24)
 [
