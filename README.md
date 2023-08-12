@@ -49,9 +49,11 @@ and their dimension:
 
 
 One example:
-
-    sage: Mult_Irrep_Gamma_2_SV(24)
-    [[[8, 7, 28, 12, 2, 27, 24, 21, 7, 12,0], 1325],
+    
+     sage: cd Scripts
+     sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
+     sage: Mult_Irrep_Gamma_2_SV(24)
+     [[[8, 7, 28, 12, 2, 27, 24, 21, 7, 12,0], 1325],
      [[5, 5, 22, 12, 2, 24, 22, 17, 7, 10, 0], 1160],
      [[3, 2, 6, 0, 0, 3, 2, 4, 0, 2, 0], 165],
      [[1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 15],
