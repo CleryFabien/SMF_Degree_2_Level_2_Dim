@@ -50,6 +50,10 @@ and their dimension:
       [[i.d. of  S^{(G)}_k(&Gamma[2])], dim S^{(G)}_k(&Gamma[2])]
       ]
 &psi;
+
+
+U+03B8
+
 One example:
 
     sage: Mult_Irrep_Gamma_2_SV(24)
