@@ -2,13 +2,9 @@
  
 ### Description
 
-This repository is based on the preprint 
+The code in this repository is based on the preprint 
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 by Jonas Bergström, Fabien Cléry.
-
-This repository contains Sage codes for computing the isotypical decompositions
-of the spaces of Siegel modular forms (scalar-valued or vector-valued) of degree 2 
-and level 2. 
 
 ### Installation (SageMath)
 
@@ -25,10 +21,15 @@ sage: cd Scripts
 sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 ```
 
-Authors
---
+### Usage
+
+
+### Authors
+
 * [Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) 
 * [Fabien Cléry](https://vivo.brown.edu/display/fclery) 
+
+
 ```
 sage 
 ```
