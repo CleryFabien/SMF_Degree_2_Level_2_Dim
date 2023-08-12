@@ -47,7 +47,7 @@ Mult_Irrep_Gamma_2_SV(k)
 
 [[i.d. of E_k(&Gamma; [2])], dim E_k(&Gamma[2])],
 
-[[i.d. of E^{(F)}_k(&Gamma[2])], dim E^{(F)}_k(&Gamma[2])],
+[[i.d. of $E^{(F)}_k(\Gamma[2])$], dim E^{(F)}_k(&Gamma[2])],
 
 [[i.d. of E^{(Q)}_k(&Gamma[2])], dim E^{(Q)}_k(&Gamma[2])],
 
