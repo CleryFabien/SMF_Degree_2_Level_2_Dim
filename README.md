@@ -38,17 +38,17 @@ the decompositions (\ref{OrthoDecom}) and (\ref{DecompPackets})  for modular for
 (the irreducible representations of S_6 are ordered as in Table 1 of \ref{table:IrrepList})
 and their dimension: 
  
-      Mult_Irrep_Gamma_2_SV(k)
-      [
-      [[i.d. of $M_k(\Gamma_2)$], dim M_k(&Gamma[2])], 
-      [[i.d. of S_k(&gamma;)], dim S_k(&Gamma[2])],
-      [[i.d. of E_k(&Gamma; [2])], dim E_k(&Gamma[2])],
-      [[i.d. of E^{(F)}_k(&Gamma[2])], dim E^{(F)}_k(&Gamma[2])],
-      [[i.d. of E^{(Q)}_k(&Gamma[2])], dim E^{(Q)}_k(&Gamma[2])],
-      [[i.d. of S^{(P)}_k(&Gamma[2])], dim S^{(P)}_k(&Gamma[2])],
-      [[i.d. of  S^{(Y)}_k(&Gamma[2])], dim S^{(Y)}_k(&Gamma[2])],
-      [[i.d. of  S^{(G)}_k(&Gamma[2])], dim S^{(G)}_k(&Gamma[2])]
-      ]
+Mult_Irrep_Gamma_2_SV(k)
+>[
+>[[i.d. of $M_k(\Gamma_2)$], dim M_k(&Gamma[2])], 
+[[i.d. of S_k(&gamma;)], dim S_k(&Gamma[2])],
+[[i.d. of E_k(&Gamma; [2])], dim E_k(&Gamma[2])],
+[[i.d. of E^{(F)}_k(&Gamma[2])], dim E^{(F)}_k(&Gamma[2])],
+[[i.d. of E^{(Q)}_k(&Gamma[2])], dim E^{(Q)}_k(&Gamma[2])],
+[[i.d. of S^{(P)}_k(&Gamma[2])], dim S^{(P)}_k(&Gamma[2])],
+[[i.d. of  S^{(Y)}_k(&Gamma[2])], dim S^{(Y)}_k(&Gamma[2])],
+[[i.d. of  S^{(G)}_k(&Gamma[2])], dim S^{(G)}_k(&Gamma[2])]
+]
 
 
 i.d. of $M_k(\Gamma[2])$], $\dim M_k(\Gamma[2])$,
