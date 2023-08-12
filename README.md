@@ -49,15 +49,9 @@ and their dimension:
       [[i.d. of  S^{(Y)}_k(&Gamma[2])], dim S^{(Y)}_k(&Gamma[2])],
       [[i.d. of  S^{(G)}_k(&Gamma[2])], dim S^{(G)}_k(&Gamma[2])]
       ]
-&psi;
 
-$\Gamma$
-&Gamma
 
 i.d. of $M_k(\Gamma[2])$], $\dim M_k(\Gamma[2])$,
-U+03B8
-
-$\beta_$1.
 
 One example:
 
