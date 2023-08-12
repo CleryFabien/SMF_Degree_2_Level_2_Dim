@@ -60,7 +60,7 @@ sage: Mult_Irrep_Gamma_2_SV(k)
 ]
 
 
- def trivial_representation(isometry):
+    def trivial_representation(isometry):
          return 1
 
     import numpy as np
