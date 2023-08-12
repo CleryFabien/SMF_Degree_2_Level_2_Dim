@@ -40,7 +40,7 @@ and their dimension:
  
       Mult_Irrep_Gamma_2_SV(k)
       [
-      [[i.d. of M_k(&gamma;[2])], dim M_k(&Gamma[2])], 
+      [[i.d. of M_k($\Gamma_2$)], dim M_k(&Gamma[2])], 
       [[i.d. of S_k(&gamma;[2])], dim S_k(&Gamma[2])],
       [[i.d. of E_k(&Gamma;[2])], dim E_k(&Gamma[2])],
       [[i.d. of E^{(F)}_k(&Gamma[2])], dim E^{(F)}_k(&Gamma[2])],
