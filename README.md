@@ -29,7 +29,8 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 - [Isotypical decomposition: vector-valued case](#IsodecompVV)
 
 ## Isotypical decomposition: scalar-valued case
-The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute the following commands:
+The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute the following commands
+(k stands for the weight, a non-negative integer):
 
 - Mult_Irrep_Gamma_2_SV(k)
 - Mult_Irrep_Gamma_1_2_SV(k)
@@ -40,7 +41,7 @@ The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute t
 ```
 sage: Mult_Irrep_Gamma_2_SV(k)
 ```
-where k stands for the weight, k>=0.
+
 It returns the isotypical decomposition (abbreviated by i.d. in the sequel) of each piece appearing in 
 the decompositions (\ref{OrthoDecom}) and (\ref{DecompPackets})  for modular forms on Gamma[2]
 (the irreducible representations of S_6 are ordered as in Table 1 of \ref{table:IrrepList})
