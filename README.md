@@ -54,7 +54,7 @@ and their dimension:
 $\Gamma$
 &Gamma
 
-[[i.d. of $M_k(\Gamma_2)$], dim M_k(&Gamma[2])],
+[[i.d. of $M_k(\Gamma[2])$], $\dim M_k(\Gamma[2])],
 U+03B8
 
 $\beta_$1.
