@@ -49,7 +49,7 @@ and their dimension:
       [[i.d. of  S^{(Y)}_k(&Gamma[2])], dim S^{(Y)}_k(&Gamma[2])],
       [[i.d. of  S^{(G)}_k(&Gamma[2])], dim S^{(G)}_k(&Gamma[2])]
       ]
-
+&psi;
 One example:
 
     sage: Mult_Irrep_Gamma_2_SV(24)
