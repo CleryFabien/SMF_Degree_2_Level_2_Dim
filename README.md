@@ -23,10 +23,10 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 
 ### Usage
 
-- [Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage]()
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contribution)
+- [DimFormulaPlusMinusNewFormGamma0.sage](#Deg1)
+- [Euler_Characteristic.sage](#EC)
+- [Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage](#SV)
+- [Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage](#VV)
 
 
 ### Authors
