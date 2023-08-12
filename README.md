@@ -51,6 +51,8 @@ and their dimension:
       ]
 &psi;
 
+$\Gamma$
+&Gamma;
 
 U+03B8
 
