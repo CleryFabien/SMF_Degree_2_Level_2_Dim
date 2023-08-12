@@ -30,6 +30,13 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 
 ## Isotypical decomposition: scalar-valued case
 The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute the following commands:
+
+- Mult_Irrep_Gamma_2_SV(k)
+- Mult_Irrep_Gamma_1_2_SV(k)
+- dim_Gamma_0_2_SV(k)
+- dim_Sp4Z_With_Character_SV(k)
+- dim_Sp4Z_SV(k)
+
 ```
 sage: Mult_Irrep_Gamma_2_SV(k)
 ```
