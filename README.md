@@ -18,12 +18,10 @@ First clone the repository via
 ```
 git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
 ```
-then go to the newly created directory, run [SageMath] and type
+then go to the newly created directory, run [SageMath](https://www.sagemath.org) and type
 ```
 sage load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 ```
-After that, a new package called `SMF_Degree_2_Level_2_Dim` will be available for import in SageMath. 
-Once the package is updated on GitHub, pulling the new changes and running the same command will update your installation.
 
 Authors
 --
