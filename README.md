@@ -38,10 +38,11 @@ appearing in the space $M_k(\Gamma[2])$
 (the irreducible representations of S_6 are ordered as in Table 1 of \ref{table:IrrepList})
 and their dimension: 
  
-[[i.d. of $M_k(\Gamma[2])$], dim $M_k(\Gamma[2])$]
+[[i.d. of $M_k(\Gamma[2])$], dim $M_k(\Gamma[2])$],
 [[i.d. of $S_k(\Gamma[2])$], dim $S_k(\Gamma[2])$],
 [[i.d. of $E_k(\Gamma[2])$], dim $E_k(&Gamma[2])$],
 [[i.d. of $E^{(F)}_k(\Gamma[2])$], dim $E^{(F)}_k(\Gamma[2])$],
+
 [[i.d. of $E^{(Q)}_k(&Gamma[2])$], dim $E^{(Q)}_k(\Gamma[2])$],
 
 [[i.d. of S^{(P)}_k(&Gamma[2])], dim S^{(P)}_k(&Gamma[2])],
