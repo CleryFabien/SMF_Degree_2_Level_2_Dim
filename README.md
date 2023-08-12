@@ -24,9 +24,9 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 ### Usage
 
 - [DimFormulaPlusMinusNewFormGamma0.sage](#Deg1)
-- [Euler_Characteristic](# Euler Characteristic)
-- [Isotypical_decomposition: scalar-valued case](#Isotypical decomposition: scalar-valued case)
-- [Isotypical decomposition: vector-valued case](#Isotypical decomposition: vector-valued case)
+- [Euler_Characteristic](#EulerCharacteristic)
+- [Isotypical_decomposition: scalar-valued case](#Isotypicaldecomposition: scalar-valued case)
+- [Isotypical decomposition: vector-valued case](#Isotypicaldecomposition: vector-valued case)
 
 ##Isotypical decomposition: scalar-valued case
 
