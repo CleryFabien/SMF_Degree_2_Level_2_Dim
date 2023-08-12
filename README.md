@@ -54,6 +54,8 @@ and their dimension:
 
 U+03B8
 
+$*beta_$1.
+
 One example:
 
     sage: Mult_Irrep_Gamma_2_SV(24)
