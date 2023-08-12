@@ -59,40 +59,23 @@ sage: Mult_Irrep_Gamma_2_SV(k)
 [[i.d. of  S^{(G)}_k(Gamma[2])], dim S^{(G)}_k(Gamma[2])]
 ]
 
+One example:
 
-    def trivial_representation(isometry):
-         return 1
-
-    import numpy as np
-    g = BirchGenus(11)
-    dim = g.dimensions()[1]
-    mat = np.zeros((dim, dim), dtype=np.int32)
-    for entry in g.isometry_sequence(31):
-        row = entry['src']
-        col = entry['dst']
-        mat[row][col] += trivial_representation(entry)
-
+    sage: Mult_Irrep_Gamma_2_SV(24)
+    [[[8, 7, 28, 12, 2, 27, 24, 21, 7, 12,0], 1325],
+     [[5, 5, 22, 12, 2, 24, 22, 17, 7, 10, 0], 1160],
+     [[3, 2, 6, 0, 0, 3, 2, 4, 0, 2, 0], 165],
+     [[1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 15],
+     [[2, 2, 5, 0, 0, 3, 2, 3, 0, 2, 0], 150],
+     [[3, 0, 5, 0, 0, 0, 0, 5, 0, 0, 0], 73],
+     [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 0],
+     [[2, 5, 17, 12, 2, 24, 22, 12, 7, 10, 0], 1087]]
+    
 
 
 Here is one example:
 sage: Mult_Irrep_Gamma_2_SV(24)
-[
-[[8, 7, 28, 12, 2, 27, 24, 21, 7, 12,0], 1325],
 
-[[5, 5, 22, 12, 2, 24, 22, 17, 7, 10, 0], 1160],
-
-[[3, 2, 6, 0, 0, 3, 2, 4, 0, 2, 0], 165],
-
-[[1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0], 15],
-
-[[2, 2, 5, 0, 0, 3, 2, 3, 0, 2, 0], 150],
-
-[[3, 0, 5, 0, 0, 0, 0, 5, 0, 0, 0], 73],
-
-[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 0],
-
-[[2, 5, 17, 12, 2, 24, 22, 12, 7, 10, 0], 1087]
-]
 
 - Mult_Irrep_Gamma_1_2_SV(k)
 
