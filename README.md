@@ -28,26 +28,15 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 - [Isotypical decomposition: scalar-valued case](#IsodecompSV)
 - [Isotypical decomposition: vector-valued case](#IsodecompVV)
 
-##
-Isotypical decomposition: scalar-valued case
-
-
-### Authors
-
-* [Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) 
-* [Fabien Cléry](https://vivo.brown.edu/display/fclery) 
-
-
-```
-sage 
-```
- 
+## Isotypical decomposition: scalar-valued case
 The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute the following commands:
-- Mult_Irrep_Gamma_2_SV(k)
+```
+sage: Mult_Irrep_Gamma_2_SV(k)
+```
 where k stands for the weight, k>=0.
-It returns the isotypical decomposition (i.d.) of each piece appearing in 
+It returns the isotypical decomposition (abbreviated by i.d. in the sequel) of each piece appearing in 
 the decompositions (\ref{OrthoDecom}) and (\ref{DecompPackets})  for modular forms on Gamma[2]
-(the irreducible representations of S_6 are ordered as in Table \ref{table:IrrepList})
+(the irreducible representations of S_6 are ordered as in Table 1 of \ref{table:IrrepList})
 and their dimension: 
  
 
@@ -246,3 +235,9 @@ Jonas Bergström, Fabien Cléry
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 
 Preprint available at [arXiv:](https://arxiv.org)
+
+
+### Authors
+
+* [Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) 
+* [Fabien Cléry](https://vivo.brown.edu/display/fclery) 
