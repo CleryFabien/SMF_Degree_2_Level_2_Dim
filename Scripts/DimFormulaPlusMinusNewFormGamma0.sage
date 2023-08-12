@@ -76,3 +76,8 @@ def CheckDim(k):
     dm = dimension_new_cusp_forms_minus_level_2(k)
     return d-dp-dm
 
+"""
+   Example:
+   sage: print([[k,CheckDim(k)] for k in range(20) if k % 2 == 0])
+   [[0, 0], [2, 0], [4, 0], [6, 0], [8, 0], [10, 0], [12, 0], [14, 0], [16, 0], [18, 0]]
+"""
