@@ -33,15 +33,6 @@ The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute t
 (k stands for the weight, a non-negative integer):
 
 - Mult_Irrep_Gamma_2_SV(k)
-- Mult_Irrep_Gamma_1_2_SV(k)
-- dim_Gamma_0_2_SV(k)
-- dim_Sp4Z_With_Character_SV(k)
-- dim_Sp4Z_SV(k)
-
-```
-sage: Mult_Irrep_Gamma_2_SV(k)
-```
-
 It returns the isotypical decomposition (abbreviated by i.d. in the sequel) of each piece appearing in 
 the decompositions (\ref{OrthoDecom}) and (\ref{DecompPackets})  for modular forms on Gamma[2]
 (the irreducible representations of S_6 are ordered as in Table 1 of \ref{table:IrrepList})
@@ -51,7 +42,7 @@ and their dimension:
      Mult_Irrep_Gamma_2_SV(k)
     [
       [[i.d. of M_k(Gamma[2])], dim M_k(Gamma[2])], 
-      [[i.d. of S_k(Gamma[2])], S_k(Gamma[2])],
+      [[i.d. of S_k(Gamma[2])], dim S_k(Gamma[2])],
       [[i.d. of E_k(Gamma[2])], dim E_k(Gamma[2])],
       [[i.d. of E^{(F)}_k(Gamma[2])], dim E^{(F)}_k(Gamma[2])],
       [[i.d. of E^{(Q)}_k(Gamma[2])], dim E^{(Q)}_k(Gamma[2])],
@@ -72,6 +63,16 @@ One example:
      [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 0],
      [[2, 5, 17, 12, 2, 24, 22, 12, 7, 10, 0], 1087]]
     
+- Mult_Irrep_Gamma_1_2_SV(k)
+- dim_Gamma_0_2_SV(k)
+- dim_Sp4Z_With_Character_SV(k)
+- dim_Sp4Z_SV(k)
+
+```
+sage: Mult_Irrep_Gamma_2_SV(k)
+```
+
+
 
 
 Here is one example:
