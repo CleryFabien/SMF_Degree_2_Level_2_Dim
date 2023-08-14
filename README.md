@@ -32,7 +32,7 @@ The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute t
 - ``Mult_Irrep_Gamma_2_SV(k)``
 returns a list of the isotypical decompositions (abbreviated by i.d. in the sequel) of the various pieces 
 appearing in the space $M_k(\Gamma[2])$
-(the irreducible representations of S_6 are ordered as in Table 1 of \ref{table:IrrepList})
+(the irreducible representations of $\mathfrak{S}_6$ are ordered as in Table 1 of [BG])
 and their dimension: 
  
 - [i.d. of $M_k(\Gamma[2])$], dim $M_k(\Gamma[2])$],
