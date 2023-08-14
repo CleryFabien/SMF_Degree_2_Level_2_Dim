@@ -18,7 +18,6 @@ git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
 then go to the newly created directory and from within Sage type: 
 ```
 sage: cd Scripts
-sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 ```
 
 ### Usage
