@@ -3,7 +3,7 @@
 ### Description
 
 The code in this repository is based on the preprint 
-[Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two](BG)
+*Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
 by Jonas Bergström, Fabien Cléry.
 
 ### Installation (SageMath)
@@ -26,7 +26,7 @@ sage: cd Scripts
 - [Isotypical decomposition: vector-valued case](#IsodecompVV)
 
 ## Isotypical decomposition: scalar-valued case
-The procedure Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage can execute the following commands
+The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage`` can execute the following commands
 (k stands for the weight, a non-negative integer):
 
 - ``Mult_Irrep_Gamma_2_SV(k)``
