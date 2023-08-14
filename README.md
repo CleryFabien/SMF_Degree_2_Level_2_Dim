@@ -8,7 +8,6 @@ by Jonas Bergström, Fabien Cléry.
 
 ### Installation (SageMath)
 
-
 To use the code you will need to have
 [SageMath](https://www.sagemath.org) installed.
 
