@@ -8,7 +8,7 @@ by Jonas Bergström, Fabien Cléry.
 
 ### Installation (SageMath)/ Usage
 
-#### Installation (SageMath) 
+Installation (SageMath) 
 To use the code you will need to have
 [SageMath](https://www.sagemath.org) installed.
 
@@ -17,7 +17,7 @@ Then clone the repository via
 git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
 ```
 
-#### Usage
+Usage
 Go to the newly created directory and from within Sage type: 
 ```
 sage: cd Scripts
