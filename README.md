@@ -35,7 +35,7 @@ The irreducible representations of $\mathfrak{S}_6$ are ordered as in Table 1 of
 8 elements of the list returned correspond to the spaces:
 $M_{k,j}(\Gamma[2])$, $S_{k,j}(\Gamma[2])$, $E_{k,j}(\Gamma[2])$, $E^{(F)}_{k,j}(\Gamma[2])$, 
 $E^{(Q)}_{k,j}(\Gamma[2])$, $S^{(P)}_{k,j}(\Gamma[2])$, $S^{(Y)}_{k,j}(\Gamma[2])$ and 
-\$S^{(G)}_{k,j}(\Gamma[2])$.
+$S^{(G)}_{k,j}(\Gamma[2])$.
  
 One example:
     
