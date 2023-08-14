@@ -26,7 +26,7 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage`` can execute the following commands
 ((k,j) stands for the weight, a pair of non-negative integers):
 
-- ``Mult_Irrep_Gamma_2_VV(k,j)``
+- `Mult_Irrep_Gamma_2_VV(k,j)`
 returns a list of 8 elements. Each element of this list is in turn a list of 2 elements: 
 [i.d.(V), dim V] where i.d.(V) is the isotypical decomposition of the $\mathfrak{S}_6$- 
 module V and dim V its dimension. 
