@@ -33,11 +33,11 @@ returns a list of 8 elements. Each element of this list is in turn a list of 2 e
 module V and dim V its dimension. 
 
 The irreducible representations of $\mathfrak{S}_6$ are ordered as in Table 1 of [arXiv:](https://arxiv.org). 
-The 8 elements of the list returned correspond to the spaces:
+The 8 elements of the list returned correspond to the spaces: 
 
+$M_{k,j}(\Gamma[2])$, 
 
-     $M_{k,j}(\Gamma[2])$, 
-     $S_{k,j}(\Gamma[2])$, 
+$S_{k,j}(\Gamma[2])$, 
 
 $E_{k,j}(\Gamma[2])$,
  
