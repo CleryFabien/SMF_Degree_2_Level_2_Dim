@@ -30,7 +30,8 @@ The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage`` can execu
 (k stands for the weight, a non-negative integer):
 
 - ``Mult_Irrep_Gamma_2_SV(k)``
-returns a list of the isotypical decompositions (abbreviated by i.d. in the sequel) of the various pieces 
+returns a list of 8 elements. Each element of this list is of the form [i.d.(V), dim V]
+where i.d.(V) is the isotypical decomposition (abbreviated by i.d. in the sequel) of the various pieces 
 appearing in the space $M_k(\Gamma[2])$
 (the irreducible representations of $\mathfrak{S}_6$ are ordered as in Table 1 of [BG])
 and their dimension: 
