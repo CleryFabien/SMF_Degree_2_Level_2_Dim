@@ -31,10 +31,11 @@ returns a list of 8 elements. Each element of this list is in turn a list of 2 e
 [i.d.(V), dim V] where i.d.(V) is the isotypical decomposition of the $\mathfrak{S}_6$- 
 module V and dim V its dimension. 
 
-The irreducible representations of $\mathfrak{S}_6$ are ordered as in Table 1 of [[BG]](https://arxiv.org). 
+The irreducible representations of $\mathfrak{S}_6$ 
+
+are ordered as in Table 1 of [[BG]](https://arxiv.org). 
 The 8 elements of the list returned correspond to the spaces: 
-$M_{k,j}(\Gamma[2])$, 
-$S_{k,j}(\Gamma[2])$, 
+$M_{k,j}(\Gamma[2])$, $S_{k,j}(\Gamma[2])$, 
 $E_{k,j}(\Gamma[2])$,
 $E^{(F)}_{k,j}(\Gamma[2])$, 
 $E^{(Q)}_{k,j}(\Gamma[2])$, 
