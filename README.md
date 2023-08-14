@@ -31,7 +31,7 @@ The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage`` can execu
 returns a list of 8 elements. Each element of this list is in turn a list of 2 elements: 
 [i.d.(V), dim V] where i.d.(V) is the isotypical decomposition of the $\mathfrak{S}_6$-module V 
 and dim V its dimension.
-The irreducible representations of $\mathfrak{S}_6$ are ordered as in Table 1 of [BG]). The
+The irreducible representations of $\mathfrak{S}_{6}$ are ordered as in Table 1 of [BG]). The
 8 elements of the list returned correspond to the spaces:
  $M_{k,j}(\Gamma[2])$, 
  $S_{k,j}(\Gamma[2])$, 
