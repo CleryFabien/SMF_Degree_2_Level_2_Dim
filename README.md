@@ -96,9 +96,22 @@ of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_1[2]), S_{k,j}(\Gamma_1[2]), E
 $`E^{(Q)}_{k,j}(\Gamma_1[2]), S^{(P)}_{k,j}(\Gamma_1[2]), S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
 $`S^{(G)}_{k,j}(\Gamma_1[2])`$ 
 
+Examples:
+
+    sage: dim_Gamma_0_2_VV(24,0)
+    [57, 44, 13, 3, 10, 13, 0, 31]
+    sage: dim_Gamma_0_2_VV(12,4)
+    [25, 19, 6, 0, 6, 0, 0, 19]
 
 - ``dim_Sp4Z_With_Character_VV(k,j)`` returns a list of 8 elements.
-- ``dim_Sp4Z_VV(k,j)`` returns a list of 8 elements.
+Each element of this list is $`\dim V`$ for $`V=M_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S_{k,j}(\Gamma_1[2]), E_{k,j}(\Gamma_1[2]), E^{(F)}_{k,j}(\Gamma_1[2]),`$ 
+$`E^{(Q)}_{k,j}(\Gamma_1[2]), S^{(P)}_{k,j}(\Gamma_1[2]), S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
+$`S^{(G)}_{k,j}(\Gamma_1[2])`$ 
+
+- ``dim_Sp4Z_VV(k,j)`` returns a list of 8 elements. Each element
+of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_1[2]), S_{k,j}(\Gamma_1[2]), E_{k,j}(\Gamma_1[2]), E^{(F)}_{k,j}(\Gamma_1[2]),`$ 
+$`E^{(Q)}_{k,j}(\Gamma_1[2]), S^{(P)}_{k,j}(\Gamma_1[2]), S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
+$`S^{(G)}_{k,j}(\Gamma_1[2])`$ 
 
 ```
 sage: Mult_Irrep_Gamma_2_SV(k)
