@@ -92,9 +92,9 @@ Examples:
     [[19, 33, 11], 96]]
 
 - ``dim_Gamma_0_2_VV(k,j)`` returns a list of 8 elements. Each element
-of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_1[2]), S_{k,j}(\Gamma_1[2]), E_{k,j}(\Gamma_1[2]), E^{(F)}_{k,j}(\Gamma_1[2]),`$ 
-$`E^{(Q)}_{k,j}(\Gamma_1[2]), S^{(P)}_{k,j}(\Gamma_1[2]), S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
-$`S^{(G)}_{k,j}(\Gamma_1[2])`$ 
+of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_0[2]), S_{k,j}(\Gamma_0[2]), E_{k,j}(\Gamma_0[2]), E^{(F)}_{k,j}(\Gamma_0[2]),`$ 
+$`E^{(Q)}_{k,j}(\Gamma_0[2]), S^{(P)}_{k,j}(\Gamma_0[2]), S^{(Y)}_{k,j}(\Gamma_0[2])`$ and 
+$`S^{(G)}_{k,j}(\Gamma_0[2])`$ 
 
 Examples:
 
@@ -104,9 +104,10 @@ Examples:
     [25, 19, 6, 0, 6, 0, 0, 19]
 
 - ``dim_Sp4Z_With_Character_VV(k,j)`` returns a list of 8 elements.
-Each element of this list is $`\dim V`$ for $`V=M_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S_{k,j}(\Gamma_1[2]), E_{k,j}(\Gamma_1[2]), E^{(F)}_{k,j}(\Gamma_1[2]),`$ 
-$`E^{(Q)}_{k,j}(\Gamma_1[2]), S^{(P)}_{k,j}(\Gamma_1[2]), S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
-$`S^{(G)}_{k,j}(\Gamma_1[2])`$ 
+Each element of this list is $`\dim V`$ for $`V=M_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
+$`E_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), E^{(F)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
+$`E^{(Q)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S^{(P)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
+$`S^{(Y)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon)`$ and $`S^{(G)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon)`$ 
 
 - ``dim_Sp4Z_VV(k,j)`` returns a list of 8 elements. Each element
 of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_1[2]), S_{k,j}(\Gamma_1[2]), E_{k,j}(\Gamma_1[2]), E^{(F)}_{k,j}(\Gamma_1[2]),`$ 
