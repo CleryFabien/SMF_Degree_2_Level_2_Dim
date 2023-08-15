@@ -70,9 +70,32 @@ $`M_{k,j}(\Gamma_1[2])`$, $`S_{k,j}(\Gamma_1[2])`$, $`E_{k,j}(\Gamma_1[2])`$, $`
 $`E^{(Q)}_{k,j}(\Gamma_1[2])`$, $`S^{(P)}_{k,j}(\Gamma_1[2])`$, $`S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
 $`S^{(G)}_{k,j}(\Gamma_1[2])`$.
 
-- ``dim_Gamma_0_2_VV(k,j)``
-- ``dim_Sp4Z_With_Character_VV(k,j)``
-- ``dim_Sp4Z_VV(k,j)``
+Examples:
+
+    sage: Mult_Irrep_Gamma_1_2_VV(24,0)
+    [[[57, 62, 14], 195],
+    [[44, 51, 14], 160],
+    [[13, 11, 0], 35],
+    [[3, 1, 0], 5],
+    [[10, 10, 0], 30],
+    [[13, 5, 0], 23],
+    [[0, 0, 0], 0],
+    [[31, 46, 14], 137]]
+    sage: Mult_Irrep_Gamma_1_2_VV(12,4)
+    [[[25, 39, 11], 114],
+    [[19, 33, 11], 96],
+    [[6, 6, 0], 18],
+    [[0, 0, 0], 0],
+    [[6, 6, 0], 18],
+    [[0, 0, 0], 0],
+    [[0, 0, 0], 0],
+    [[19, 33, 11], 96]]
+
+- ``dim_Gamma_0_2_VV(k,j)`` returns a list of 8 elements.
+
+
+- ``dim_Sp4Z_With_Character_VV(k,j)`` returns a list of 8 elements.
+- ``dim_Sp4Z_VV(k,j)`` returns a list of 8 elements.
 
 ```
 sage: Mult_Irrep_Gamma_2_SV(k)
