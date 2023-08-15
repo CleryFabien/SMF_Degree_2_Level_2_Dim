@@ -91,7 +91,10 @@ Examples:
     [[0, 0, 0], 0],
     [[19, 33, 11], 96]]
 
-- ``dim_Gamma_0_2_VV(k,j)`` returns a list of 8 elements.
+- ``dim_Gamma_0_2_VV(k,j)`` returns a list of 8 elements. Each element
+of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_1[2]), S_{k,j}(\Gamma_1[2]), E_{k,j}(\Gamma_1[2]), E^{(F)}_{k,j}(\Gamma_1[2]),`$ 
+$`E^{(Q)}_{k,j}(\Gamma_1[2]), S^{(P)}_{k,j}(\Gamma_1[2]), S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
+$`S^{(G)}_{k,j}(\Gamma_1[2])`$ 
 
 
 - ``dim_Sp4Z_With_Character_VV(k,j)`` returns a list of 8 elements.
