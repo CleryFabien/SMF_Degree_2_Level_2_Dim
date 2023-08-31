@@ -131,7 +131,7 @@ Examples:
      [2, 1, 1, 0, 1, 0, 0, 1]
 
 - ``List_to_Rep(L)`` Rewrite a list of p(n) elements as a sum of irreducible representations of $`\mathfrak{S}_n`$  (p(n) is the number of partition of n).
-This eases the comparaison with the existing results 
+ 
 
 Examples:
 
