@@ -202,3 +202,14 @@ def Mult_Irrep_Gamma_1_2_VV(k,j):
     L = Mult_Irrep_Gamma_2_VV(k,j)
     LL = [[[L[n][0][0]+L[n][0][2]+L[n][0][7],L[n][0][1]+L[n][0][2]+L[n][0][5],L[n][0][3]+L[n][0][4]],L[n][0][0]+L[n][0][2]+L[n][0][7]+2*(L[n][0][1]+L[n][0][2]+L[n][0][5])+L[n][0][3]+L[n][0][4]] for n in range(8)]
     return LL
+
+
+
+def List_to_Rep(L):
+    """
+    Rewrite a list of p(n) elements as a sum of irrep. of S_n (p(n) is the number of partition of n)
+    """
+    if len(L) == 11:
+       return  L[0]*s[6]+L[1]*s[5,1]+L[2]*s[4,2]+L[3]*s[4,1,1]+L[4]*s[3,3]+L[5]*s[3,2,1]+L[6]*s[3,1,1,1]+L[7]*s[2,2,2]+L[8]*s[2,2,1,1]+L[9]*s[2,1,1,1,1]+L[10]*s[1,1,1,1,1,1]
+    if len(L) == 3:
+       return L[0]*s[3]+L[1]*s[2,1]+L[2]*S[1,1,1]
