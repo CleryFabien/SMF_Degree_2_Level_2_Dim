@@ -4,12 +4,9 @@ of the plus and minus subspaces of the space of new
 forms on Gamma_0(2). Here the plus and minus signs 
 correspond to the sign of the eigenvalues of the 
 Fricke involution acting on the space of new 
-forms on Gamma_0(2). These dimensions are computed as 
-explained in Bergström-Cléry, ``Dimension formulas for 
-spaces of vector-valued Siegel modular forms of degree two and level two''
-Section 3.1.
+forms on Gamma_0(2).
 
-Remark: These formulas can also be found in Theorem 2 of 
+Remark: These formulas can be found in Theorem 2.2 of 
 
 [1] Kimball Martin
     Refined dimensions of cusp forms, and equidistribution and bias of signs
