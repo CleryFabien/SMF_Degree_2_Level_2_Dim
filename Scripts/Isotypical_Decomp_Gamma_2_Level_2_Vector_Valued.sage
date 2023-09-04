@@ -74,33 +74,15 @@ def Mult_Irrep_VV_odd(k,j):
     Klingen-Eisenstein series, type Q
 """
 
-def MakeE1(r):
-    """
-    compute epsilon_1, see Section Isotypical decomposition of the Eisenstein part E_{2k,j}(Gamma[2])
-    """
-    if (r % 6) == 1:
-        return -1 
-    return 0
-
-
-def MakeE2(r):
-    """
-    compute epsilon_2, see Section Isotypical decomposition of the Eisenstein part E_{2k,j}(Gamma[2])
-    """
-    if (r % 6) == 4:
-        return -1 
-    return 0
-
 
 def Mult_Irrep_KE_VV_even(k,j):
     """
-    Return the multiplicities of the 11 irrep. of S_6 in M^{(Q)}_{k,j}(Gamma[2]) as a list.
+    Return the multiplicities of the 11 irrep. of S_6 in E^{(Q)}_{k,j}(Gamma[2]) as a list.
     """
-    a = floor((j/2+k/2)/6)+MakeE1(j/2+k/2)
-    b = floor(j/6+k/6+2/3)
-    c = floor(j/12+k/12+1/2)+MakeE2(j/2+k/2)
-    return [a,a,a+b-1,0,0,b-1,c,b-1,0,c,0]
-
+    d1 = Gamma0(1).dimension_new_cusp_forms(j+k)
+    d2 = Gamma0(2).dimension_new_cusp_forms(j+k)
+    d4 = Gamma0(4).dimension_new_cusp_forms(j+k)
+    return [d1,d1,2*d1+d2,0,0,d1+d2,d4,d1+d2,0,d4,0]
 
 
 def Mult_Irrep_VV_even(k,j):
