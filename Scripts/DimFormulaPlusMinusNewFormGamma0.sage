@@ -13,7 +13,7 @@ Remark: These formulas can be found in Theorem 2.2 of
     Journal of Number Theory
     188 (2018) pp. 1–17
 
-Remark: In Theorem 2 of [1] the plus/minus signs correspond to 
+Remark: In Theorem 2.2 of [1] the plus/minus signs correspond to 
          w_f which is the sign in the functional equation of L(f,s)
          for f a weight k new form on Gamma_0(2) so 
          w_f=(-1)^{k/2} \lambda_{W_2} for f \in S_{k}(Gamma_0(2))^{new}
