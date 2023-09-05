@@ -266,12 +266,12 @@ def Eisenstein_ML(l,m):
     AA = s[3,1,1,1]+s[2,1,1,1,1] 
     BB = s[3,2,1]+s[2,2,2]+s[4,2]  
     CC = s[6]+s[5,1]+s[4,2]
-    d4 = dimension_new_cusp_forms(Gamma0(4),l+m+4)
-    d2 = dimension_new_cusp_forms(Gamma0(2),l+m+4)
-    d1 = dimension_cusp_forms(Gamma0(1),l+m+4)
-    dd4 = dimension_new_cusp_forms(Gamma0(4),l-m+2)
-    dd2 = dimension_new_cusp_forms(Gamma0(2),l-m+2)
-    dd1 = dimension_cusp_forms(Gamma0(1),l-m+2)
+    d4 = Gamma0(4).dimension_new_cusp_forms(l+m+4)
+    d2 = Gamma0(2).dimension_new_cusp_forms(l+m+4)
+    d1 = Gamma0(1).dimension_cusp_forms(l+m+4)
+    dd4 = Gamma0(4).dimension_new_cusp_forms(l-m+2)
+    dd2 = Gamma0(2).dimension_new_cusp_forms(l-m+2)
+    dd1 = Gamma0(1).dimension_cusp_forms(l-m+2)
     if l == m:
        return -C-d4*A-(d2+d1)*B-d1*C
     return (dd4-d4)*A+(dd2+dd1-(d2+d1))*B+(dd1-d1)*C
@@ -280,27 +280,38 @@ def Eisenstein(l,m):
     AA = s[3,1,1,1]+s[2,1,1,1,1] 
     BB = s[3,2,1]+s[2,2,2]+s[4,2]  
     CC = s[6]+s[5,1]+s[4,2]
-    d4 = dimension_new_cusp_forms(Gamma0(4),l+3)
-    d2 = dimension_new_cusp_forms(Gamma0(2),l+3)
-    d1 = dimension_cusp_forms(Gamma0(1),l+3)
-    dd4 = dimension_new_cusp_forms(Gamma0(4),m+2)
-    dd2 = dimension_new_cusp_forms(Gamma0(2),m+2)
-    dd1 = dimension_cusp_forms(Gamma0(1),m+2)
+    d4 = Gamma0(4).dimension_new_cusp_forms(l+3)
+    d2 = Gamma0(2).dimension_new_cusp_forms(l+3)
+    d1 = Gamma0(1).dimension_cusp_forms(l+3)
+    dd4 = Gamma0(4).dimension_new_cusp_forms(m+2)
+    dd2 = Gamma0(2).dimension_new_cusp_forms(m+2)
+    dd1 = Gamma0(1).dimension_cusp_forms(m+2)
     if m == 0:  
        return Eisenstein_ML(l,0)+BB-CC
     if (m % 2) == 0:
        return Eisenstein_ML(l,m)+BB+CC+AA*dd4*2+BB*dd2*2+(BB+CC)*dd1*2
     return Eisenstein_ML(l,m)-(AA*d4*2+BB*d2*2+(BB+CC)*d1*2) 
 
+'''
+Warning: The definitions of A, B and C are different of those in the paper.
+We have (on the left, the notation here, on the right those of the paper):
+A = C'
+B = B'
+C = A' and also 
+AA = C
+BB = B 
+CC = A
+'''
+
 def Endoscopy(l,m):
-    d4 = dimension_new_cusp_forms(Gamma0(4),l+m+4)
-    d2 = dimension_new_cusp_forms(Gamma0(2),l+m+4)
-    d1 = dimension_cusp_forms(Gamma0(1),l+m+4)
+    d4 = Gamma0(4).dimension_new_cusp_forms(l+m+4)
+    d2 = Gamma0(2).dimension_new_cusp_forms(l+m+4)
+    d1 = Gamma0(1).dimension_cusp_forms(l+m+4)
     d2p = dimension_new_cusp_forms_plus_level_2(l+m+4)
     d2m = dimension_new_cusp_forms_minus_level_2(l+m+4)
-    dd4 = dimension_new_cusp_forms(Gamma0(4),l-m+2)
-    dd2 = dimension_new_cusp_forms(Gamma0(2),l-m+2)
-    dd1 = dimension_cusp_forms(Gamma0(1),l-m+2)
+    dd4 = Gamma0(4).dimension_new_cusp_forms(l-m+2)
+    dd2 = Gamma0(2).dimension_new_cusp_forms(l-m+2)
+    dd1 = Gamma0(1).dimension_cusp_forms(l-m+2)
     dd2p = dimension_new_cusp_forms_plus_level_2(l-m+2)
     dd2m = dimension_new_cusp_forms_minus_level_2(l-m+2)
     s6 = -2*d1*dd1*s[6]
@@ -318,16 +329,16 @@ def Endoscopy(l,m):
     return s6+s51+s42+s411+s33+s321+s3111+s222
 
 def Saito_Kurokawa(l,m):
-    d4 = dimension_new_cusp_forms(Gamma0(4),l+m+4)
-    d2 = dimension_new_cusp_forms(Gamma0(2),l+m+4)
-    d1 = dimension_cusp_forms(Gamma0(1),l+m+4)
+    d4 = Gamma0(4).dimension_new_cusp_forms(l+m+4)
+    d2 = Gamma0(2).dimension_new_cusp_forms(l+m+4)
+    d1 = Gamma0(1).dimension_cusp_forms(l+m+4)
     d2p = dimension_new_cusp_forms_plus_level_2(l+m+4)
     d2m = dimension_new_cusp_forms_minus_level_2(l+m+4)
     dd2p = dimension_new_cusp_forms_plus_level_2(l-m+2)
     dd2m = dimension_new_cusp_forms_minus_level_2(l-m+2)
-    dd4 = dimension_new_cusp_forms(Gamma0(4),l-m+2)
-    dd2 = dimension_new_cusp_forms(Gamma0(2),l-m+2)
-    dd1 = dimension_cusp_forms(Gamma0(1),l-m+2)
+    dd4 = Gamma0(4).dimension_new_cusp_forms(l-m+2)
+    dd2 = Gamma0(2).dimension_new_cusp_forms(l-m+2)
+    dd1 = Gamma0(1).dimension_cusp_forms(l-m+2)
     if l == m:
        if (l % 2) == 1:
            return -(s[4,2]*d2p*2+s[2,2,2]*d2m*2+(s[2,2,2]+s[4,2]+s[6])*d1*2)
