@@ -26,6 +26,7 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage`` can 
 execute the following commands ($`(k,j)`$ stands for the weight, a pair of 
 integers):
+Note that for $`k=2`$ the code only returns question marks (see [BG](https://arxiv.org), Section for more details).
 
 - ``Mult_Irrep_Gamma_2_VV(k,j)`` returns a list of 8 elements. 
 Each element of this list is in turn a list of 2 elements: [i.d.(V), dim V]
