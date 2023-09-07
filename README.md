@@ -27,7 +27,7 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 
 The input for the procedures described below is the weight, i.e. a pair of 
 integers $`(k,j)`$. Note that for $`k=2`$ and $`j`$ even  the code only returns question marks 
-(see [BG](https://arxiv.org), Section 5 for more details).
+(see [BG](https://arxiv.org), Section 5 for some explanations).
 
 
 The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage`` can 
