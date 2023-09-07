@@ -4,7 +4,7 @@
 
 The code in this repository is based on the preprint 
 *Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
-by Jonas Bergström, Fabien Cléry.
+by Jonas Bergström, Fabien Cléry, available at [arXiv:](https://arxiv.org)
 
 ### Installation (SageMath)
 
