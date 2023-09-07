@@ -71,7 +71,7 @@ Each element of this list is in turn a list of 2 elements: [i.d.(V), dim V]
 where i.d.(V) is the isotypical decomposition of the $`\mathfrak{S}_3`$-module V and 
 dim V its dimension. The irreducible representations of $`\mathfrak{S}_3`$ 
 are ordered as $`s[3]`$, $`s[2,1]`$ and $`s[1^3]`$. The 8 elements 
-of the list returned correspond to the spaces: 
+of the list returned correspond with the spaces: 
 $`M_{k,j}(\Gamma_1[2])`$, $`S_{k,j}(\Gamma_1[2])`$, $`E_{k,j}(\Gamma_1[2])`$, $`E^{(F)}_{k,j}(\Gamma_1[2])`$, 
 $`E^{(Q)}_{k,j}(\Gamma_1[2])`$, $`S^{(P)}_{k,j}(\Gamma_1[2])`$, $`S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
 $`S^{(G)}_{k,j}(\Gamma_1[2])`$.
