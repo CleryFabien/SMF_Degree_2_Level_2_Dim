@@ -15,6 +15,8 @@ Then clone the repository via
 ```
 git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
 ```
+This will create a directory named SMF_Degree_2_Level_2_Dim.
+
 ### Usage
 
 Go to the newly created directory and from within Sage type: 
@@ -151,17 +153,6 @@ Examples:
      [[22, 94, 188, 196, 95, 325, 213, 109, 180, 104, 15], 14649]]
      sage: List_to_Rep(TT[6][0])
      5*s[1, 1, 1, 1, 1, 1] + 4*s[2, 1, 1, 1, 1] + 5*s[2, 2, 2]
-
-### Citing this code
-
-Please cite the following preprint if this code has been helpful in your research.
-
-Jonas Bergström, Fabien Cléry
-
-*Dimension formulas for spaces of vector-valued Siegel modular forms of degree two and level two*
-
-Preprint available at [arXiv:](https://arxiv.org)
-
 
 ### Authors
 
