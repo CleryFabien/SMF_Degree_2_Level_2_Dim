@@ -81,7 +81,7 @@ def Mult_Irrep_VV_odd(k,j):
 def Mult_Irrep_KE_VV_even(k,j):
     """
     Return the multiplicities of the 11 irrep. of S_6 in E^{(Q)}_{k,j}(Gamma[2]) as a list.
-    k>=3 (even integer), j non negative even integer
+    k>=4 (even integer), j non negative even integer
     """
     d1 = Gamma0(1).dimension_new_cusp_forms(j+k)
     d2 = Gamma0(2).dimension_new_cusp_forms(j+k)
