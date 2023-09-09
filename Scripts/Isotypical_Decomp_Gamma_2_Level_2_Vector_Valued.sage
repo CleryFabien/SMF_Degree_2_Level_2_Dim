@@ -4,6 +4,7 @@ load('Euler_Characteristic.sage')
 def Decomposition_All_Cusp_forms(k,j):
     """
     Compute the multiplicities of the irrep. of S_6 in  S_{k,j}(Gamma[2]).
+    k>=3 (integer), j non negative even integer.
     """
     C = Eul_A2Wcusp(j+k-3,k-3,0)
     CC = Make_Vector_From_Irrep(C)
@@ -13,6 +14,7 @@ def Decomposition_General_Type_Cusp_forms(k,j):
     """
     Compute the multiplicities of the irrep. of S_6 for on the space of cusp forms   
     of general type in S_{k,j}(Gamma[2]).
+    k>=3 (integer), j non negative even integer.
     """
     C = Eul_A2Wcusp(j+k-3,k-3,1)
     CC = Make_Vector_From_Irrep(C)
@@ -22,6 +24,7 @@ def Decomposition_Yoshida_Mod_forms(k,j):
     """
     Compute the multiplicities of the irrep. of S_6 on the space of cusp forms   
     of type (Y) (Yoshida lifts) in M_{k,j}(Gamma[2]).
+    k>=3 (integer), j non negative even integer
     """
     A = Decomposition_All_Cusp_forms(k,j)
     B = Decomposition_General_Type_Cusp_forms(k,j)
@@ -39,7 +42,7 @@ def Dim_List(L):
    
 def Mult_Irrep_VV_odd(k,j):
     """
-    Return for k odd the list of the isotypical decomposition of 
+    Return for k>=3 odd and j non negative even integer the list of the isotypical decomposition of 
     Total space,
     Total cusp space
     E (Eisenstein),
@@ -78,6 +81,7 @@ def Mult_Irrep_VV_odd(k,j):
 def Mult_Irrep_KE_VV_even(k,j):
     """
     Return the multiplicities of the 11 irrep. of S_6 in E^{(Q)}_{k,j}(Gamma[2]) as a list.
+    k>=3 (even integer), j non negative even integer
     """
     d1 = Gamma0(1).dimension_new_cusp_forms(j+k)
     d2 = Gamma0(2).dimension_new_cusp_forms(j+k)
@@ -87,7 +91,7 @@ def Mult_Irrep_KE_VV_even(k,j):
 
 def Mult_Irrep_VV_even(k,j):
     """
-    Return for k odd the list of the isotypical decomposition of 
+    Return for k>=3 odd and j non negative even integer the list of the isotypical decomposition of 
     Total space,
     Total cusp space
     E (Eisenstein),
@@ -123,7 +127,7 @@ load('Isotypical_Decomp_Gamma_2_Level_2_Scalar_Valued.sage')
 
 def Mult_Irrep_Gamma_2_VV(k,j):
     """
-    Put everything together
+    Put everything together, k>=3 integer, j non negative even ineteger 
     """
     k = ZZ(k)
     ZL = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 0]

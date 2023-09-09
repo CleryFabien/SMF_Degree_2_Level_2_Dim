@@ -28,7 +28,7 @@ def dimension_new_cusp_forms_plus_level_2(k):
     """
     k = ZZ(k)
     d = Gamma0(2).dimension_new_cusp_forms(k)
-    if k==0 or k==2:
+    if k==0 or k==2 or (k % 2) == 1:
         return 0 
     if (k % 8) == 0:
         return (d/2)+1/2 
@@ -49,7 +49,7 @@ def dimension_new_cusp_forms_minus_level_2(k):
     """
     k = ZZ(k)
     d = Gamma0(2).dimension_new_cusp_forms(k)
-    if k==0 or k==2:
+    if k==0 or k==2 or (k % 2) == 1:
         return 0
     if (k % 8) == 0:
         return (d/2)-1/2 

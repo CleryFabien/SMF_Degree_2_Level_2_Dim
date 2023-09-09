@@ -260,6 +260,9 @@ load('DimFormulaPlusMinusNewFormGamma0.sage')
  
 
 def Eisenstein_ML(l,m):
+    """
+    l positive integer, m non negative integer
+    """
     A = s[3,3]+s[4,1,1] 
     B = s[3,2,1]+s[5,1]+s[4,2]  
     C = s[6]+s[2,2,2]+s[4,2]
@@ -277,6 +280,9 @@ def Eisenstein_ML(l,m):
     return (dd4-d4)*A+(dd2+dd1-(d2+d1))*B+(dd1-d1)*C
     
 def Eisenstein(l,m):
+    """
+    l positive integer, m non negative integer
+    """
     AA = s[3,1,1,1]+s[2,1,1,1,1] 
     BB = s[3,2,1]+s[2,2,2]+s[4,2]  
     CC = s[6]+s[5,1]+s[4,2]
@@ -304,6 +310,9 @@ CC = A
 '''
 
 def Endoscopy(l,m):
+    """
+    l positive integer, m non negative integer
+    """
     d4 = Gamma0(4).dimension_new_cusp_forms(l+m+4)
     d2 = Gamma0(2).dimension_new_cusp_forms(l+m+4)
     d1 = Gamma0(1).dimension_cusp_forms(l+m+4)
@@ -329,6 +338,9 @@ def Endoscopy(l,m):
     return s6+s51+s42+s411+s33+s321+s3111+s222
 
 def Saito_Kurokawa(l,m):
+    """
+    l positive integer, m non negative integer
+    """
     d4 = Gamma0(4).dimension_new_cusp_forms(l+m+4)
     d2 = Gamma0(2).dimension_new_cusp_forms(l+m+4)
     d1 = Gamma0(1).dimension_cusp_forms(l+m+4)
@@ -346,6 +358,9 @@ def Saito_Kurokawa(l,m):
     return  -2*dd4*s[2,1,1,1,1]*d4-2*(s[2,2,2]*dd2p+s[1,1,1,1,1,1]*dd2m)*d2p-2*(s[2,2,2]*dd2m+s[1,1,1,1,1,1]*dd2p)*d2m
 
 def Eul_A2Wcusp(l,m,switch): 
+    """
+    l positive integer, m non negative integer
+    """
     Eul = Eul_A2W([l,m])
     if switch == 1: 
        return (-Eul+Eisenstein(l,m)+Endoscopy(l,m)+Saito_Kurokawa(l,m))/4
@@ -369,11 +384,17 @@ def Make_Vector_From_Irrep(P):
 
 
 def Decomposition_All_Cusp_forms(k,j):
+    """
+    k>=3 (integer), j non negative even integer
+    """
     C = Eul_A2Wcusp(j+k-3,k-3,0)
     CC = Make_Vector_From_Irrep(C)
     return CC
 
 def Decomposition_General_Type_Cusp_forms(k,j):
+    """
+    k>=3 (integer), j non negative even integer
+    """
     C = Eul_A2Wcusp(j+k-3,k-3,1)
     CC = Make_Vector_From_Irrep(C)
     return CC
