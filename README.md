@@ -27,7 +27,7 @@ sage: load("Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage")
 
 The input for the procedures described below is the weight, i.e. a pair of 
 integers $`(k,j)`$. Note that for $`k=2`$ and $`j`$ even  the code only returns question marks 
-(see [BG](https://arxiv.org), Section 5 for some explanations).
+(see [BG](https://arxiv.org/pdf/2309.04388.pdf), Section 5 for some explanations).
 
 
 The procedure ``Isotypical_Decomp_Gamma_2_Level_2_Vector_Valued.sage`` can 
@@ -37,7 +37,7 @@ execute the following commands:
 Each element of this list is in turn a list of 2 elements: [i.d.(V), dim V]
 where i.d.(V) is the isotypical decomposition of the $`\mathfrak{S}_6`$-module V and 
 dim V its dimension. The irreducible representations of $`\mathfrak{S}_6`$ 
-are ordered as in Table 1 of [BG](https://arxiv.org). The 8 elements 
+are ordered as in Table 1 of [BG](https://arxiv.org/pdf/2309.04388.pdf). The 8 elements 
 of the list returned correspond with the spaces: 
 $`M_{k,j}(\Gamma[2])`$, $`S_{k,j}(\Gamma[2])`$, $`E_{k,j}(\Gamma[2])`$, $`E^{(F)}_{k,j}(\Gamma[2])`$, 
 $`E^{(Q)}_{k,j}(\Gamma[2])`$, $`S^{(P)}_{k,j}(\Gamma[2])`$, $`S^{(Y)}_{k,j}(\Gamma[2])`$ and 
