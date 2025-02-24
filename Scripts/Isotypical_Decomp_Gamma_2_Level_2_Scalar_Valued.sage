@@ -447,7 +447,7 @@ E_{k}(Gamma[2]) space of non-cusp forms of weight k
 S_{k}(Gamma[2]) space of cusp forms of weight k
 We even further decompose M_{k}(Gamma[2]) as
 E_{k}(Gamma[2])=Eis_{k}(Gamma[2])+KE_{k}(Gamma[2])
-(Eis_{k}(Gamma[2]) type F, KE_{k}(Gamma[2]) type Q)
+(Eis_{k}(Gamma[2]): Siegel Eisenstein series, KE_{k}(Gamma[2]): Klingen-Eisenstein series)
 and for the cusp forms
 S_{k}(Gamma[2])=S^{P}_{k}(Gamma[2]) + S^{G}_{k}(Gamma[2])  
 where 
@@ -457,7 +457,7 @@ S^{G}_{k}(Gamma[2]) denotes the space of cusp forms of general type.
 """
 
 """
-Non-cups forms, Siegel-Eisenstein series, type F 
+Non-cups forms, Siegel-Eisenstein series 
 """
 
 def Mult_s6_Eis_SV_even(k):
@@ -551,7 +551,7 @@ def Dim_Eis_Total_SV_even(k):
 """
 
 """
-Klingen-Eisenstein series, type Q
+Klingen-Eisenstein series
 """
 
 
@@ -1084,8 +1084,8 @@ def List_Mult_Irrep_SV_odd(k):
     Total space,
     Total cusp space
     E (Eisenstein),
-    Eis (Siegel-Eisenstein, type F),
-    KE (Klingen-Eisenstein, type Q),
+    Eis (Siegel-Eisenstein),
+    KE (Klingen-Eisenstein),
     Saito-Kurokawa (type P)
     Yosh (type Y)
     Genuine (type G, general)
@@ -1139,8 +1139,8 @@ def List_Mult_Irrep_SV_even(k):
     Total space,
     Total cusp space
     E (Eisenstein),
-    Eis (Siegel-Eisenstein, type F),
-    KE (Klingen-Eisenstein, type Q),
+    Eis (Siegel-Eisenstein),
+    KE (Klingen-Eisenstein),
     Saito-Kurokawa (type P)
     Yosh (type Y)
     Genuine (type G, general)
