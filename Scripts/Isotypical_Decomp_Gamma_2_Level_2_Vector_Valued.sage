@@ -46,8 +46,8 @@ def Mult_Irrep_VV_odd(k,j):
     Total space,
     Total cusp space
     E (Eisenstein),
-    Eis (type F),
-    KE (type Q),
+    Eis (Siegel Eisenstein series),
+    KE (Klingen-Eisenstein series),
     Saito-Kurokawa (type P)
     Yosh (type Y)
     Genuine (type G)
@@ -74,7 +74,7 @@ def Mult_Irrep_VV_odd(k,j):
 
 
 """
-    Klingen-Eisenstein series, type Q
+    Klingen-Eisenstein series
 """
 
 
