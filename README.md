@@ -39,8 +39,8 @@ where i.d.(V) is the isotypical decomposition of the $`\mathfrak{S}_6`$-module V
 dim V its dimension. The irreducible representations of $`\mathfrak{S}_6`$ 
 are ordered as in Table 1 of [BG](https://arxiv.org/pdf/2309.04388.pdf). The 8 elements 
 of the list returned correspond with the spaces: 
-$`M_{k,j}(\Gamma[2])`$, $`S_{k,j}(\Gamma[2])`$, $`E_{k,j}(\Gamma[2])`$, $`E^{(F)}_{k,j}(\Gamma[2])`$, 
-$`E^{(Q)}_{k,j}(\Gamma[2])`$, $`S^{(P)}_{k,j}(\Gamma[2])`$, $`S^{(Y)}_{k,j}(\Gamma[2])`$ and 
+$`M_{k,j}(\Gamma[2])`$, $`S_{k,j}(\Gamma[2])`$, $`E_{k,j}(\Gamma[2])`$, $`SE_{k,j}(\Gamma[2])`$, 
+$`KE_{k,j}(\Gamma[2])`$, $`S^{(P)}_{k,j}(\Gamma[2])`$, $`S^{(Y)}_{k,j}(\Gamma[2])`$ and 
 $`S^{(G)}_{k,j}(\Gamma[2])`$.
  
 Examples:
@@ -72,8 +72,8 @@ where i.d.(V) is the isotypical decomposition of the $`\mathfrak{S}_3`$-module V
 dim V its dimension. The irreducible representations of $`\mathfrak{S}_3`$ 
 are ordered as $`s[3]`$, $`s[2,1]`$ and $`s[1^3]`$. The 8 elements 
 of the list returned correspond with the spaces: 
-$`M_{k,j}(\Gamma_1[2])`$, $`S_{k,j}(\Gamma_1[2])`$, $`E_{k,j}(\Gamma_1[2])`$, $`E^{(F)}_{k,j}(\Gamma_1[2])`$, 
-$`E^{(Q)}_{k,j}(\Gamma_1[2])`$, $`S^{(P)}_{k,j}(\Gamma_1[2])`$, $`S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
+$`M_{k,j}(\Gamma_1[2])`$, $`S_{k,j}(\Gamma_1[2])`$, $`E_{k,j}(\Gamma_1[2])`$, $`SE_{k,j}(\Gamma_1[2])`$, 
+$`KE_{k,j}(\Gamma_1[2])`$, $`S^{(P)}_{k,j}(\Gamma_1[2])`$, $`S^{(Y)}_{k,j}(\Gamma_1[2])`$ and 
 $`S^{(G)}_{k,j}(\Gamma_1[2])`$.
 
 Examples:
@@ -98,8 +98,8 @@ Examples:
     [[19, 33, 11], 96]]
 
 - ``dim_Gamma_0_2_VV(k,j)`` returns a list of 8 elements. Each element
-of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_0[2]), S_{k,j}(\Gamma_0[2]), E_{k,j}(\Gamma_0[2]), E^{(F)}_{k,j}(\Gamma_0[2]),`$ 
-$`E^{(Q)}_{k,j}(\Gamma_0[2]), S^{(P)}_{k,j}(\Gamma_0[2]), S^{(Y)}_{k,j}(\Gamma_0[2])`$ and 
+of this list is $`\dim V`$ for $`V=M_{k,j}(\Gamma_0[2]), S_{k,j}(\Gamma_0[2]), E_{k,j}(\Gamma_0[2]), SE_{k,j}(\Gamma_0[2]),`$ 
+$`KE_{k,j}(\Gamma_0[2]), S^{(P)}_{k,j}(\Gamma_0[2]), S^{(Y)}_{k,j}(\Gamma_0[2])`$ and 
 $`S^{(G)}_{k,j}(\Gamma_0[2])`$. 
 
 Examples:
@@ -111,8 +111,8 @@ Examples:
 
 - ``dim_Sp4Z_With_Character_VV(k,j)`` returns a list of 8 elements.
 Each element of this list is $`\dim V`$ for $`V=M_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
-$`E_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), E^{(F)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
-$`E^{(Q)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S^{(P)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
+$`E_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), SE_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
+$`KE_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon), S^{(P)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon),`$ 
 $`S^{(Y)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon)`$ and $`S^{(G)}_{k,j}(\text{Sp}(4,\mathbb{Z}),\epsilon)`$.
 
 Examples:
@@ -125,8 +125,8 @@ Examples:
     [2, 2, 0, 0, 0, 0, 1, 1] 
 
 - ``dim_Sp4Z_VV(k,j)`` returns a list of 8 elements. Each element
-of this list is $`\dim V`$ for $`V=M_{k,j}(\text{Sp}(4,\mathbb{Z})), S_{k,j}(\text{Sp}(4,\mathbb{Z})), E_{k,j}(\text{Sp}(4,\mathbb{Z})), E^{(F)}_{k,j}(\text{Sp}(4,\mathbb{Z})),`$ 
-$`E^{(Q)}_{k,j}(\text{Sp}(4,\mathbb{Z})), S^{(P)}_{k,j}(\text{Sp}(4,\mathbb{Z})), S^{(Y)}_{k,j}(\text{Sp}(4,\mathbb{Z}))`$ and 
+of this list is $`\dim V`$ for $`V=M_{k,j}(\text{Sp}(4,\mathbb{Z})), S_{k,j}(\text{Sp}(4,\mathbb{Z})), E_{k,j}(\text{Sp}(4,\mathbb{Z})), SE_{k,j}(\text{Sp}(4,\mathbb{Z})),`$ 
+$`KE_{k,j}(\text{Sp}(4,\mathbb{Z})), S^{(P)}_{k,j}(\text{Sp}(4,\mathbb{Z})), S^{(Y)}_{k,j}(\text{Sp}(4,\mathbb{Z}))`$ and 
 $`S^{(G)}_{k,j}(\text{Sp}(4,\mathbb{Z}))`$. 
 
 Examples:
