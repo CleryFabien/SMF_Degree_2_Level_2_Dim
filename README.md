@@ -8,14 +8,10 @@ by Jonas Bergström, Fabien Cléry, available at [arXiv](https://arxiv.org/pdf/2
 
 ### Installation (SageMath)
 
+You can download the repository by clicking on the green icon Code and then on Download ZIP.
+
 To use the code you will need to have
 [SageMath](https://www.sagemath.org) installed.
-
-Then clone the repository via
-```
-git clone git@github.com:CleryFabien/SMF_Degree_2_Level_2_Dim.git
-```
-This will create a directory named SMF_Degree_2_Level_2_Dim.
 
 ### Usage
 
