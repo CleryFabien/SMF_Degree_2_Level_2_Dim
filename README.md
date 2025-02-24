@@ -170,4 +170,4 @@ Examples:
 ### Authors
 
 * [Jonas Bergström](https://www.su.se/english/profiles/jonab-1.190994) 
-* [Fabien Cléry](https://vivo.brown.edu/display/fclery) 
+* [Fabien Cléry](https://orcid.org/0000-0002-7374-1569) 
