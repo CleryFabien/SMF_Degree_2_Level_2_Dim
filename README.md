@@ -41,7 +41,8 @@ are ordered as in Table 1 of [BG](https://arxiv.org/pdf/2309.04388.pdf). The 8 e
 of the list returned correspond with the spaces: 
 $`M_{k,j}(\Gamma[2])`$, $`S_{k,j}(\Gamma[2])`$, $`E_{k,j}(\Gamma[2])`$, $`SE_{k,j}(\Gamma[2])`$, 
 $`KE_{k,j}(\Gamma[2])`$, $`S^{(P)}_{k,j}(\Gamma[2])`$, $`S^{(Y)}_{k,j}(\Gamma[2])`$ and 
-$`S^{(G)}_{k,j}(\Gamma[2])`$.
+$`S^{(G)}_{k,j}(\Gamma[2])`$. For a description of these spaces, we refer to Section 2 of
+[BG](https://arxiv.org/pdf/2309.04388.pdf).
  
 Examples:
     
